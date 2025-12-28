@@ -1,7 +1,7 @@
-# CipherSQLStudio
+# sqlstudio_cipherschools
 
 ## 1. Project Overview
-CipherSQLStudio is a browser-based SQL learning platform designed as a sandbox for students to practice SQL queries. It provides a safe environment where users can execute read-only SQL queries against pre-configured datasets to solve specific assignments. The system is designed for educational purposes, focusing on query logic without the risk of data modification.
+sqlstudio_cipherschools is a browser-based SQL learning platform designed as a sandbox for students to practice SQL queries. It provides a safe environment where users can execute read-only SQL queries against pre-configured datasets to solve specific assignments. The system is designed for educational purposes, focusing on query logic without the risk of data modification.
 
 ## 2. Tech Stack
 
@@ -80,3 +80,4 @@ The application follows a client-server architecture with Express.js acting as t
 - **No auto-grading**: The platform executes queries but does not automatically verify if the result matches the correct answer.
 - **Limited SQL support**: Optimized for standard `SELECT` queries; advanced stored procedures or specific database extensions may not be supported.
 - **Single-user assumptions**: Created as a simple project environment, not optimized for high-concurrency production loads.
+
